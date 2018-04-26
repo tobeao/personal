@@ -92,62 +92,53 @@ body {
 
 
 /*************  content  ***************/
-.content {
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 100px;
-  display: none;
-  padding: 10px;
-}
 body>.active {
   display: block;
 }
-.content a:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.content li {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  background: #fff;
-}
-.content li img {
-  width: 100%;
-}
-/*.box1,.box2 {
-  float: left;
-  width: 185px;
-  height: 270px;
-  background: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-.box1:hover,.box2:hover {
-  text-decoration: none;
-}
-.box1 {
-  margin-right: 5px;
-}
-.box2 {
-  margin-left: 5px;
-}*/
 .name {
   float: left;
   color: #333;
   font-size: 1.2em;
   margin-left: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .change {
   float: right;
   color: #7eb2cd;
   font-size: 1em;
   margin-right: 10px;
-  margin-top: 32px;
+  margin-top: 22px;
+  margin-bottom: 20px;
 }
+.inner:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  margin-bottom: 100px;
+  display: none;
+  padding: 5px 4px;
+
+}
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content .box1 {
+  float: left;
+  width: 50%;
+  padding: 5px 4px;
+}
+.inner {
+  background: #fff;
+}
+.imgbox img {
+  width: 100%;
+}
+
 
 
 

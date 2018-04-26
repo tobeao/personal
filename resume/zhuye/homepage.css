@@ -1,0 +1,79 @@
+* {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+body {
+	background-image: url(bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+h3 {
+	color: #FEFF54;
+}
+.text {
+	margin: 100px 50px;
+}
+.box1 {
+	margin-top: 60px;
+}
+.box1,.box2 {
+	background-color: rgba(0,0,0,0.3);
+	margin-bottom: 30px;
+}
+.line {
+	width: 60px;
+	height: 4px;
+	background: #F2A243;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 18px;
+	color: #fff;
+}
+.phone,.wechat{
+	vertical-align: middle;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-right: 1px solid #333;
+}
+.qq {
+	vertical-align: middle;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.phone:hover {
+	background: #ed6a5e;
+}
+.wechat:hover {
+	background: #62c655;
+}
+.qq:hover {
+	background: #f6bf50;
+}
+.contact {
+	margin-bottom: 20px;
+}
+.contact-text {
+	color: #fff;
+}
+.pic {
+	padding:0;
+
+}
+.text1 {
+	margin: 50px 50px;
+}
+.btn {
+	margin-top: 70px;
+}
+.btn1 {
+	margin-top: 100px;
+}
+
